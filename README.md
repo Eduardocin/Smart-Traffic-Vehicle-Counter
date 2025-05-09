@@ -1,11 +1,3 @@
-**Nome do Repositório:**  
-`Smart-Traffic-Vehicle-Counter`  
-*(Descritivo e inclui as palavras-chave: "smart", "traffic", "vehicle counter")*
-
----
-
-**Estrutura Sugerida para o README.md:**  
-```markdown
 # Smart Traffic Vehicle Counter 🚦🚗
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
@@ -52,4 +44,3 @@ Distribuído sob a licença MIT. Veja [LICENSE](LICENSE) para mais detalhes.
 ## Créditos
 - Modelo YOLO: [Ultralytics](https://github.com/ultralytics/yolov5)
 - Rastreamento: [ByteTrack](https://github.com/ifzhang/ByteTrack)
-```
