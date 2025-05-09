@@ -1,3 +1,11 @@
+**Nome do Repositório:**  
+`Smart-Traffic-Vehicle-Counter`  
+*(Descritivo e inclui as palavras-chave: "smart", "traffic", "vehicle counter")*
+
+---
+
+**Estrutura Sugerida para o README.md:**  
+```markdown
 # Smart Traffic Vehicle Counter 🚦🚗
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
@@ -18,3 +26,30 @@ Um sistema inteligente de contagem de veículos com análise de semáforo, detec
    ```bash
    git clone https://github.com/seu-usuario/Smart-Traffic-Vehicle-Counter.git
    cd Smart-Traffic-Vehicle-Counter
+   ```
+2. Instale as dependências:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Baixe o modelo pré-treinado YOLO (ex: `volo11s.pt`) e coloque-o na pasta `models/`.
+
+## Uso
+Execute o script principal com o vídeo de entrada:
+```bash
+python main.py --video tr.mp4 --model models/volo11s.pt --line_y 600
+```
+**Parâmetros:**
+- `--video`: Caminho do vídeo de entrada.
+- `--model`: Caminho do modelo YOLO.
+- `--line_y`: Posição Y da linha virtual de contagem (padrão: 600).
+
+
+
+## Licença
+Distribuído sob a licença MIT. Veja [LICENSE](LICENSE) para mais detalhes.
+
+## Créditos
+- Modelo YOLO: [Ultralytics](https://github.com/ultralytics/yolov5)
+- Rastreamento: [ByteTrack](https://github.com/ifzhang/ByteTrack)
+```
