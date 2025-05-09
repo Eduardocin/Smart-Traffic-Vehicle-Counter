@@ -27,14 +27,15 @@ Um sistema inteligente de contagem de veículos com análise de semáforo, detec
 3. Baixe o modelo pré-treinado YOLO (ex: `volo11s.pt`) e coloque-o na pasta `models/`.
 
 ## Uso
-Execute o script principal com o vídeo de entrada:
-```bash
-python main.py --video tr.mp4 --model models/volo11s.pt --line_y 600
-```
+1. Execute o notebook Jupyter:
+   ```bash
+   jupyter notebook notebooks/Smart_Traffic_Analysis.ipynb
+   ```
+
 **Parâmetros:**
-- `--video`: Caminho do vídeo de entrada.
-- `--model`: Caminho do modelo YOLO.
-- `--line_y`: Posição Y da linha virtual de contagem (padrão: 600).
+- `video`: Caminho do vídeo de entrada.
+- `model`: Caminho do modelo YOLO.
+- `line_y`: Posição Y da linha virtual de contagem (padrão: 600).
 
 
 
