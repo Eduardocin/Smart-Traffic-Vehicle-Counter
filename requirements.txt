@@ -1,0 +1,38 @@
+# ===================================
+# SMART TRAFFIC VEHICLE COUNTER
+# Sistema Inteligente de Análise de Tráfego
+# ===================================
+
+# Dependências principais para processamento de imagem e visão computacional
+opencv-python-headless>=4.8.0
+numpy>=1.24.0
+Pillow>=9.0.0
+
+# Machine Learning e Deep Learning
+ultralytics>=8.0.0
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Análise e manipulação de dados
+pandas>=2.0.0
+scipy>=1.10.0
+
+# Visualização de dados
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Utilitários para processamento
+tqdm>=4.65.0
+
+# Jupyter Notebook support (opcional)
+jupyter>=1.0.0
+ipywidgets>=8.0.0
+
+# Dependências do sistema (podem ser necessárias dependendo do ambiente)
+# Para instalação no Windows, considere também:
+# - Visual Studio Build Tools (para compilação de algumas dependências)
+# - FFmpeg (para processamento de vídeo avançado)
+
+# Versões específicas testadas e compatíveis
+# Python >= 3.8
+# CUDA >= 11.8 (para aceleração GPU - opcional)
